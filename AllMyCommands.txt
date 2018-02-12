@@ -1,0 +1,25 @@
+$ git init book
+$ cd book
+$ git status
+$ git add .
+$ git status
+$ git commit -m "the files are added to the repository"
+$ git status
+$ git rm --cached file2.txt
+$ git commit -m "3.1 is deleted"
+$ git checkout HEAD^ file2.txt
+$ git status
+$ git commit -m "3.1 is now restored back in the repository"
+$ git status
+$ git remote add origin https://github.com/ranaasamir/rana.git
+$ git remote -v
+$ git push origin master --force
+$ touch README.md
+$ git add .
+$ git checkout -b ReadMe
+$ git add README.md
+$ git status
+$ git commit -m "Includes all information about project title, getting started, author, acknowledgments"
+$ git checkout master
+$ git merge ReadMe
+$ git status
