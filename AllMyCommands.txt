@@ -1,25 +1,160 @@
-$ git init book
-$ cd book
-$ git status
-$ git add .
-$ git status
-$ git commit -m "the files are added to the repository"
-$ git status
-$ git rm --cached file2.txt
-$ git commit -m "3.1 is deleted"
-$ git checkout HEAD^ file2.txt
-$ git status
-$ git commit -m "3.1 is now restored back in the repository"
-$ git status
-$ git remote add origin https://github.com/ranaasamir/rana.git
-$ git remote -v
-$ git push origin master --force
-$ touch README.md
-$ git add .
-$ git checkout -b ReadMe
-$ git add README.md
-$ git status
-$ git commit -m "Includes all information about project title, getting started, author, acknowledgments"
-$ git checkout master
-$ git merge ReadMe
-$ git status
+    1  git clone
+    2  git clone https://github.com/ranaasamir/repository-1.git
+    3  git clone https://github.com/ranaasamir/repository-1.git
+    4  git clone https://github.com/ranaasamir/repository1.git
+    5  ls
+    6  git status
+    7  git status
+    8  ls
+    9  cd test
+   10  cd repository1
+   11  get status
+   12  git status
+   13  git clone https://github.com/ranaasamir/repository1.git
+   14  cd test
+   15  cd repository1
+   16  git status
+   17  ls
+   18  cd repository1
+   19  git status
+   20  git add files
+   21  git init files
+   22  cd files
+   23  git status
+   24  git status
+   25  git commit -a
+   26  git config --global user.email "rana_samir97@hotmail.com"
+   27  git config --global user.name "rana samir"
+   28  omit --global
+   29  git commit -a
+   30  git commit -m "Add existing file"
+   31  git status
+   32  git commit -a
+   33  git add .
+   34  git status
+   35  git commmit -a
+   36  git commit
+   37  cd files
+   38  cd status
+   39  git status
+   40  git commit -m "done"
+   41  git status
+   42  git rm --file2.txt
+   43  git rm --cached file2.txt
+   44  git commit -m "3.1 which is in file 2 is deleted"
+   45  git status
+   46  git checkout
+   47  git status
+   48  git checkout
+   49  git checkout
+   50  git checkout deletedFile
+   51  git checkout file2.txt
+   52  git checkout <deleting_commit>^ -- <file_path>
+   53  git checkout <deleting-commit>~1 -- <file-path>
+   54  rm file2.txt
+   55  git commit -m "the deleted file is recovered"
+   56  git status
+   57  rm AllMyCommands.txt
+   58  git commit -m "ay haga"
+   59  git status
+   60  git add file2.txt
+   61  git status
+   62  git commit -m "bs"
+   63  git status
+   64  git filter -branch
+   65  git forget-blob
+   66  $ git filter-branch --tree-filter 'rm -f AllMyCommands.txt'
+   67  git filter-branch --tree-filter 'rm -f AllMyCommands.txt'
+   68  git status
+   69  git filter-branch --tree-filter 'rm -f AllMyCommands.txt' head
+   70  git status
+   71  git init book
+   72  cd book
+   73  git status
+   74  git add .
+   75  git commit -m "the files are added to the repository"
+   76  git status
+   77  $ git rm --cached file2.txt
+   78  git rm --cached file2.txt
+   79  git status
+   80  git commit -m "3.1 is deleted"
+   81  git status
+   82  git checkout HEAD^ foo.bar
+   83  git checkout HEAD^ file2.txt
+   84  git status
+   85  git commit -m "3.1 is now restored back in the repository"
+   86  git status
+   87  git remote add origin https://github.com/ranaasamir/ranarepos.git
+   88  git remote -v
+   89  git push origin master
+   90  git push origin master
+   91  git remote add origin https://github.com/ranaasamir/ranarepos.git
+   92  git remote -v
+   93  git push origin master
+   94  git pull
+   95  git push origin master
+   96  git pull origin master
+   97  git push origin master
+   98  git fetch origin
+   99  git merge origin
+  100  git merge origin book
+  101  git merge origin master
+  102  git merge origin book
+  103  fit push origin master
+  104  git push origin master
+  105  git fetch origin
+  106  git merge master
+  107  git merge origin master
+  108  git pull master
+  109  git pull origin master
+  110  git merge origin FETCH_HEAD
+  111  git merge FETCH_HEAD
+  112  git remote add origin https://github.com/ranaasamir/ranarepos.git
+  113  git remote -v
+  114  git push origin master
+  115  git pull origin master
+  116  --allow-unrelated-histories
+  117  git --work-tree="." pull --allow-unrelated-histories
+  118  git pull origin master
+  119  git push origin master
+  120  git remote add origin https://github.com/ranaasamir/rana.git
+  121  git remote -v
+  122  git remote add origin https://github.com/ranaasamir/rana.git
+  123  git push -u origin master
+  124  git remote add origin https://github.com/ranaasamir/rana.git
+  125  git add origin https://github.com/ranaasamir/rana.git
+  126  git remote add https://github.com/ranaasamir/rana.git
+  127  cd book
+  128  git status
+  129  git remote add origin https://github.com/ranaasamir/rana.git
+  130  git remote -v
+  131  git push origin master
+  132  git remote set-url origin https://github.com/ranaasamir/rana.git
+  133  git remote -v
+  134  git push origin master
+  135  git push origin master
+  136  git push origin master --force
+  137  touch README.md
+  138  git status
+  139  git add .
+  140  git status
+  141  $ git checkout -b [ReadMe]
+  142  git checkout -b [ReadMe]
+  143  git checkout -b ReadMe
+  144  git add README.md
+  145  git status
+  146  git hub
+  147  git commit -m "Includes all information about project title, getting started, author, acknowledgments"
+  148  git status
+  149  git checkout ReadMe
+  150  git checkout master
+  151  git merge ReadMe
+  152  git status
+  153  git add AllMyCommands.txt
+  154  git status
+  155  git add AllMyCommands.txt
+  156  git status
+  157  git commit -m "Includes all the commands used in the individual task in sprint 0"
+  158  git status
+  159  git push origin master
+  160  history
